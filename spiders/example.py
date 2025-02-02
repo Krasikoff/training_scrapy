@@ -1,7 +1,7 @@
 # spiders/example.py
 import scrapy
 
-from training_scrapy.items import QuoteItem
+from items import QuoteItem
 
 
 class QuotesSpider(scrapy.Spider):
